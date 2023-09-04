@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mijn Tweede Pagina</title>
+</head>
+<body>
+    <header>
+        <h1>Dit is mijn tweede pagina</h1>
+    </header>
+    
+    <nav>
+        <!-- https://github.com/essentieel/essentieel.github.io.git -->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pagina2.html">Pagina 2</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Welkom op mijn tweede pagina</h2>
+        <p>Dit is wat tekst op mijn tweede pagina.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Essentieel</p>
+    </footer>
+</body>
+</html>
