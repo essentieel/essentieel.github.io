@@ -1,0 +1,17 @@
+/* styles.css */
+
+body {
+    background-color: beige;
+}
+<link rel="stylesheet" type="text/css" href="styles.css">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mijn Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <!-- Inhoud van je website -->
+</body>
+</html>
