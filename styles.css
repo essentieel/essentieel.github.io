@@ -1,12 +1,12 @@
 body {
-    background-color: #1a237e; /* Dark blue background */
-    color: white; /* Text color */
+    background-color: #1a237e; /* Donkerblauwe achtergrond */
+    color: white; /* Tekstkleur */
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 nav {
-    background-color: #0d47a1; /* Darker blue menu bar */
+    background-color: #0d47a1; /* Donkerder blauwe menubalkleur */
 }
 
 .menu ul {
