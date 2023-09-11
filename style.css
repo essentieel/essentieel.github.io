@@ -1,7 +1,7 @@
 style.css
 body {
-    background-color: #1a237e; /* Donkerblauwe achtergrond */
-    color: white; /* Tekstkleur */
+    background-color: #767dc2; /* Donkerblauwe achtergrond */
+    color: rgb(187, 187, 187); /* Tekstkleur */
     font-family: Arial, sans-serif;
     margin: 0;
 }
