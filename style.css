@@ -11,6 +11,8 @@ nav {
     margin: 0 auto; /* Centreer de menubalk op de pagina */
     display: flex; /* Maak de menubalk een flex container */
     justify-content: center; /* Centreer de inhoud horizontaal in de menubalk */
+    align-items: center; /* Centreer de inhoud verticaal in de menubalk */
+    height: 50px; /* Hoogte van de menubalk */
 }
 
 .menu ul {
