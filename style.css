@@ -6,7 +6,7 @@ body {
 }
 
 nav {
-    background-color: #1E1E1E; /* Donkerder blauwe menubalkleur */
+    background-color: #222222; /* Donkerder blauwe menubalkleur */
     max-width: 1000px; /* Stel de maximale breedte in voor de menubalk */
     margin: 0 auto; /* Centreer de menubalk op de pagina */
     display: flex; /* Maak de menubalk een flex container */
