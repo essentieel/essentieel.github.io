@@ -1,12 +1,12 @@
 body {
-    background-color: #767dc2; /* Donkerblauwe achtergrond */
-    color: rgb(187, 187, 187); /* Tekstkleur */
+    background-color: rgb(48, 54, 61); /* Donkerblauwe achtergrond */
+    color: rgb(248, 79, 0); /* Tekstkleur */
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 nav {
-    background-color: #0d47a1; /* Donkerder blauwe menubalkleur */
+    background-color: #000000; /* Donkerder blauwe menubalkleur */
     max-width: 1000px; /* Stel de maximale breedte in voor de menubalk */
     margin: 0 auto; /* Centreer de menubalk op de pagina */
 }
