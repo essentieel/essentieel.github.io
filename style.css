@@ -13,7 +13,10 @@ nav {
     justify-content: center; /* Centreer de inhoud horizontaal in de menubalk */
     align-items: center; /* Centreer de inhoud verticaal in de menubalk */
     height: 50px; /* Hoogte van de menubalk */
+    border-top: 2px solid #5a5a5a; /* Voeg een 2px dikke #5a5a5a rand toe aan de bovenkant */
     border-bottom: 2px solid #5a5a5a; /* Voeg een 2px dikke #5a5a5a rand toe aan de onderkant */
+    border-left: 2px solid #5a5a5a; /* Voeg een 2px dikke #5a5a5a rand toe aan de linkerkant */
+    border-right: 2px solid #5a5a5a; /* Voeg een 2px dikke #5a5a5a rand toe aan de rechterkant */
 }
 
 .menu ul {
@@ -37,6 +40,11 @@ nav {
 .menu ul li a {
     text-decoration: none;
     color: white;
+    transition: background-color 0.2s; /* Voeg een vloeiende overgang toe voor de achtergrondkleur */
+}
+
+.menu ul li a:hover {
+    background-color: #555; /* Achtergrondkleur veranderen bij hover */
 }
 
 .content {
