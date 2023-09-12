@@ -13,6 +13,7 @@ nav {
     justify-content: center; /* Centreer de inhoud horizontaal in de menubalk */
     align-items: center; /* Centreer de inhoud verticaal in de menubalk */
     height: 50px; /* Hoogte van de menubalk */
+    border-bottom: 2px solid #FFFFFF; /* Voeg een 2px dikke witte onderste rand toe */
 }
 
 .menu ul {
