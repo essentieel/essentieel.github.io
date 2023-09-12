@@ -38,11 +38,6 @@ nav {
     transition: background-color 0.2s; /* Voeg een vloeiende overgang toe voor de achtergrondkleur */
 }
 
-.menu ul li:first-child a,
-.menu ul li:last-child a {
-    background-color: #555; /* Achtergrondkleur voor het eerste en laatste menu-item */
-}
-
 .menu ul li a:hover {
     background-color: #777; /* Achtergrondkleur veranderen bij hover */
 }
