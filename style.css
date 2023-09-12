@@ -13,10 +13,7 @@ nav {
     justify-content: center; /* Centreer de inhoud horizontaal in de menubalk */
     align-items: center; /* Centreer de inhoud verticaal in de menubalk */
     height: 50px; /* Hoogte van de menubalk */
-    border-top: 2px solid #5a5a5a; /* Voeg een 2px dikke #5a5a5a rand toe aan de bovenkant */
     border-bottom: 2px solid #5a5a5a; /* Voeg een 2px dikke #5a5a5a rand toe aan de onderkant */
-    border-left: 2px solid #5a5a5a; /* Voeg een 2px dikke #5a5a5a rand toe aan de linkerkant */
-    border-right: 2px solid #5a5a5a; /* Voeg een 2px dikke #5a5a5a rand toe aan de rechterkant */
 }
 
 .menu ul {
@@ -28,23 +25,26 @@ nav {
 .menu ul li {
     margin-right: 20px;
     font-weight: bold; /* Maak de tekst vetgedrukt */
-    border-right: 2px solid #5a5a5a; /* Voeg een 2px dikke #5a5a5a rand toe aan de rechterkant van elk menu-item */
-    padding-right: 10px; /* Voeg wat ruimte toe aan de rechterkant van elk menu-item */
 }
 
 .menu ul li:last-child {
     margin-right: 0; /* Verwijder de marge aan de rechterkant van het laatste lijstitem */
-    border-right: none; /* Verwijder de rand aan de rechterkant van het laatste menu-item */
 }
 
 .menu ul li a {
     text-decoration: none;
     color: white;
+    padding: 10px; /* Voeg ruimte toe rond de tekst in elk menu-item */
     transition: background-color 0.2s; /* Voeg een vloeiende overgang toe voor de achtergrondkleur */
 }
 
+.menu ul li:first-child a,
+.menu ul li:last-child a {
+    background-color: #555; /* Achtergrondkleur voor het eerste en laatste menu-item */
+}
+
 .menu ul li a:hover {
-    background-color: #555; /* Achtergrondkleur veranderen bij hover */
+    background-color: #777; /* Achtergrondkleur veranderen bij hover */
 }
 
 .content {
