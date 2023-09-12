@@ -54,29 +54,11 @@ nav {
     color: #333; /* Kleur van het huis-icoon */
     text-decoration: none; /* Verwijder de onderstreping van de link */
     transition: color 0.2s; /* Voeg een kleurovergang toe bij hover */
+    border: 2px solid #333; /* Voeg een 2px dikke rand toe */
+    border-radius: 50%; /* Maak de randen rond */
+    padding: 5px; /* Voeg ruimte toe binnen de rand */
 }
 
-/* Stijl voor de Home-pagina */
-body.page-home {
-    background-color: #2e2e2e; /* Achtergrondkleur van de Home-pagina */
-}
-
-/* Stijl voor de Binaire stelsel-pagina */
-body.page-binair_stelsel {
-    background-color: #2e2e2e; /* Achtergrondkleur van de Binaire stelsel-pagina */
-}
-
-/* Stijl voor de Kleurmodellen-pagina */
-body.page-kleurmodellen {
-    background-color: #2e2e2e; /* Achtergrondkleur van de Kleurmodellen-pagina */
-}
-
-/* Stijl voor de CPU-pagina */
-body.page-cpu {
-    background-color: #2e2e2e; /* Achtergrondkleur van de CPU-pagina */
-}
-
-/* Stijl voor de 3 Lage model-pagina */
-body.page-3lagenmodel {
-    background-color: #2e2e2e; /* Achtergrondkleur van de 3 Lage model-pagina */
+.home-link:hover {
+    color: #555; /* Kleur veranderen bij hover */
 }
