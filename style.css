@@ -1,21 +1,21 @@
 body {
-    background-color: #1E1E1E; /* Donkerblauwe achtergrond */
+    background-color: #696969; /* Achtergrondkleur van de website */
     color: rgb(255, 255, 255); /* Tekstkleur */
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 nav {
-    background-color: #222222; /* Donkerder blauwe menubalkleur */
+    background-color: #2e2e2e; /* Achtergrondkleur van de menubalk */
     max-width: 1000px; /* Stel de maximale breedte in voor de menubalk */
     margin: 0 auto; /* Centreer de menubalk op de pagina */
     display: flex; /* Maak de menubalk een flex container */
     justify-content: center; /* Centreer de inhoud horizontaal in de menubalk */
     align-items: center; /* Centreer de inhoud verticaal in de menubalk */
     height: 50px; /* Hoogte van de menubalk */
-    border-left: 2px solid #5a5a5a; /* Voeg een 2px dikke witte rand toe aan de linkerkant */
-    border-right: 2px solid #5a5a5a; /* Voeg een 2px dikke witte rand toe aan de rechterkant */
-    border-bottom: 2px solid #5a5a5a; /* Voeg een 2px dikke witte rand toe aan de onderkant */
+    border-left: 2px solid #5a5a5a; /* Voeg een 2px dikke #5a5a5a rand toe aan de linkerkant */
+    border-right: 2px solid #5a5a5a; /* Voeg een 2px dikke #5a5a5a rand toe aan de rechterkant */
+    border-bottom: 2px solid #5a5a5a; /* Voeg een 2px dikke #5a5a5a rand toe aan de onderkant */
 }
 
 .menu ul {
