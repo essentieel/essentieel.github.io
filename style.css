@@ -59,3 +59,28 @@ nav {
 .home-link:hover {
     color: #555; /* Kleur van het huis-icoon bij hover */
 }
+
+/* Stijl voor de Home-pagina */
+body.page-home {
+    background-color: #2e2e2e; /* Achtergrondkleur van de Home-pagina */
+}
+
+/* Stijl voor de Binaire stelsel-pagina */
+body.page-binary {
+    background-color: #2e2e2e; /* Achtergrondkleur van de Binaire stelsel-pagina */
+}
+
+/* Stijl voor de Kleurmodellen-pagina */
+body.page-color {
+    background-color: #2e2e2e; /* Achtergrondkleur van de Kleurmodellen-pagina */
+}
+
+/* Stijl voor de CPU-pagina */
+body.page-cpu {
+    background-color: #2e2e2e; /* Achtergrondkleur van de CPU-pagina */
+}
+
+/* Stijl voor de 3 Lage model-pagina */
+body.page-low {
+    background-color: #2e2e2e; /* Achtergrondkleur van de 3 Lage model-pagina */
+}
