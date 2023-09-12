@@ -51,12 +51,12 @@ nav {
     top: 20px;
     left: 20px;
     font-size: 24px;
-    color: #333; /* Kleur van het huis-icoon */
+    color: white; /* Tekstkleur is nu wit */
     text-decoration: none; /* Verwijder de onderstreping van de link */
     transition: color 0.2s; /* Voeg een kleurovergang toe bij hover */
-    border: 2px solid #333; /* Voeg een 2px dikke rand toe */
-    border-radius: 50%; /* Maak de randen rond */
     padding: 5px; /* Voeg ruimte toe binnen de rand */
+    border: 2px solid #5a5a5a; /* Voeg een 2px dikke rand toe met dezelfde kleur als de menubalk */
+    border-radius: 10px; /* Maak de randen rond */
 }
 
 .home-link:hover {
