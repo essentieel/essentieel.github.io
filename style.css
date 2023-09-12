@@ -55,28 +55,3 @@ nav {
     text-decoration: none; /* Verwijder de onderstreping van de link */
     transition: color 0.2s; /* Voeg een kleurovergang toe bij hover */
 }
-
-.home-link:hover {
-    color: #555; /* Kleur van het huis-icoon bij hover */
-}
-
-/* Stijl voor de Binaire stelsel-pagina */
-body.Binair_stelsel {
-    background-color: #2e2e2e; /* Achtergrondkleur van de Binaire stelsel-pagina */
-}
-
-/* Stijl voor de Kleurmodellen-pagina */
-body.Kleurmodellen {
-    background-color: #2e2e2e; /* Achtergrondkleur van de Kleurmodellen-pagina */
-}
-
-/* Stijl voor de CPU-pagina */
-body.Cpu {
-    background-color: #2e2e2e; /* Achtergrondkleur van de CPU-pagina */
-}
-
-/* Stijl voor de 3 Lage model-pagina */
-body.3lagenmodel {
-    background-color: #2e2e2e; /* Achtergrondkleur van de 3 Lage model-pagina */
-}
-
