@@ -9,16 +9,22 @@ nav {
     background-color: #000000; /* Donkerder blauwe menubalkleur */
     max-width: 1000px; /* Stel de maximale breedte in voor de menubalk */
     margin: 0 auto; /* Centreer de menubalk op de pagina */
+    display: flex; /* Maak de menubalk een flex container */
+    justify-content: center; /* Centreer de inhoud horizontaal in de menubalk */
 }
 
 .menu ul {
     list-style-type: none;
     padding: 0;
+    display: flex; /* Maak de lijst een flex container */
 }
 
 .menu ul li {
-    display: inline;
     margin-right: 20px;
+}
+
+.menu ul li:last-child {
+    margin-right: 0; /* Verwijder de marge aan de rechterkant van het laatste lijstitem */
 }
 
 .menu ul li a {
