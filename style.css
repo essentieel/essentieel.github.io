@@ -46,8 +46,8 @@ nav {
     padding: 20px;
 }
 
+/* Stijl voor de home-link met het woord "Home" en het huispictogram */
 .home-link {
-    /* Voeg hier je stijlen toe voor de hele home-link */
     text-decoration: none; /* Verwijder de standaard onderstreping van de link */
     color: white; /* Tekstkleur */
     display: flex; /* Maak een flex-container om de elementen uit te lijnen */
@@ -62,12 +62,17 @@ nav {
     background-color: #777; /* Achtergrondkleur veranderen bij hover */
 }
 
-.home-icon {
+.home-link .home-icon {
     font-size: 24px; /* Grootte van het huispictogram */
     margin-right: 5px; /* Ruimte toevoegen tussen het pictogram en de tekst */
 }
 
-.home-text {
+.home-link .home-text {
     font-size: 24px; /* Grootte van de tekst "Home" */
     font-weight: bold; /* Maak de tekst vetgedrukt */
+}
+
+/* Stijl voor de andere grijze home-link (verwijder deze) */
+.grijze-home-link {
+    display: none; /* Verberg de andere home-link */
 }
