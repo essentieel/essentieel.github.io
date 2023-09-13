@@ -1,5 +1,9 @@
-body {
+/* Gemeenschappelijke achtergrondkleur voor pagina's */
+body.common-bg-color {
     background-color: #2e2e2e; /* Achtergrondkleur van de website */
+}
+
+body {
     color: rgb(255, 255, 255); /* Tekstkleur */
     font-family: Arial, sans-serif;
     margin: 0;
@@ -72,7 +76,7 @@ nav {
     font-weight: bold; /* Maak de tekst vetgedrukt */
 }
 
-/* Stijl voor de andere grijze home-link (verwijder deze) */
+/* Verberg de andere grijze home-link */
 .grijze-home-link {
-    display: none; /* Verberg de andere home-link */
+    display: none;
 }
