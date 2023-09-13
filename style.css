@@ -47,25 +47,27 @@ nav {
 }
 
 .home-link {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    font-size: 24px;
-    color: white; /* Tekstkleur is nu wit */
-    text-decoration: none; /* Verwijder de onderstreping van de link */
-    transition: color 0.2s; /* Voeg een kleurovergang toe bij hover */
+    /* Voeg hier je stijlen toe voor de hele home-link */
+    text-decoration: none; /* Verwijder de standaard onderstreping van de link */
+    color: white; /* Tekstkleur */
+    display: flex; /* Maak een flex-container om de elementen uit te lijnen */
+    align-items: center; /* Centreer de inhoud verticaal */
     padding: 5px; /* Voeg ruimte toe binnen de rand */
     border: 2px solid #5a5a5a; /* Voeg een 2px dikke rand toe met dezelfde kleur als de menubalk */
     border-radius: 10px; /* Maak de randen rond */
+    transition: background-color 0.2s; /* Voeg een vloeiende overgang toe voor de achtergrondkleur */
 }
 
 .home-link:hover {
-    color: #555; /* Kleur veranderen bij hover */
+    background-color: #777; /* Achtergrondkleur veranderen bij hover */
 }
 
-body {
-    background-color: #2e2e2e; /* Achtergrondkleur van de website (dezelfde kleur als de homepagina) */
-    color: rgb(255, 255, 255); /* Tekstkleur */
-    font-family: Arial, sans-serif;
-    margin: 0;
+.home-icon {
+    font-size: 24px; /* Grootte van het huispictogram */
+    margin-right: 5px; /* Ruimte toevoegen tussen het pictogram en de tekst */
+}
+
+.home-text {
+    font-size: 24px; /* Grootte van de tekst "Home" */
+    font-weight: bold; /* Maak de tekst vetgedrukt */
 }
