@@ -56,6 +56,11 @@ nav {
     border: 2px solid #5a5a5a; /* Voeg een 2px dikke rand toe met dezelfde kleur als de menubalk */
     border-radius: 10px; /* Maak de randen rond */
     transition: background-color 0.2s; /* Voeg een vloeiende overgang toe voor de achtergrondkleur */
+    
+    /* Aanpassingen voor de positie en ruimte */
+    position: absolute;
+    top: 10px; /* Plaats 10px vanaf de bovenrand */
+    left: 10px; /* Plaats 10px vanaf de linkerrand */
 }
 
 .home-link:hover {
@@ -72,7 +77,3 @@ nav {
     font-weight: bold; /* Maak de tekst vetgedrukt */
 }
 
-/* Verberg de andere grijze home-link */
-.grijze-home-link {
-    display: none;
-}
