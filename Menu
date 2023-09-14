@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Voeg hier het pad naar je CSS-bestand toe -->
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cpu.html">CPU</a></li>
+                <li><a href="binair_stelsel.html">Binair Stelsel</a></li>
+                <li><a href="Kleurmodellen.html">Kleurmodellen</a></li>
+                <li><a href="3lagenmodel.html">3-Lagenmodel</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</body>
+</html>
