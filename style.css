@@ -77,3 +77,8 @@ nav {
     font-weight: bold; /* Maak de tekst vetgedrukt */
 }
 
+/* Stijl voor de home-link met het woord "Home" en het huispictogram */
+.home-link {
+    /* Andere stijlen hier */
+    font-family: Arial, sans-serif; /* Wijzig de tekstfont naar Arial */
+}
