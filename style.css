@@ -51,3 +51,33 @@ nav {
     color: white; /* Tekstkleur voor geselecteerde optie */
 }
 
+/* Stijlen voor de voettekst */
+footer {
+    background-color: #2e2e2e; /* Achtergrondkleur van de voettekst */
+    color: white; /* Tekstkleur van de voettekst */
+    display: flex; /* Maak een flex-container om de inhoud uit te lijnen */
+    justify-content: space-between; /* Verdeel de inhoud gelijkmatig over de ruimte */
+    align-items: center; /* Centreer de inhoud verticaal */
+    padding: 10px; /* Voeg ruimte toe rond de inhoud van de voettekst */
+}
+.footer-left,
+.footer-center,
+.footer-right {
+    display: flex; /* Maak de inhoud flexibel voor uitlijning binnen elk deel */
+}
+
+.footer-left p {
+    margin: 0; /* Verwijder de standaardmarges van de alinea's */
+    margin-right: 10px; /* Voeg wat ruimte toe tussen de naam en "Informatica" */
+}
+
+.footer-center {
+    flex-grow: 1; /* Laat dit deel in het midden groeien om de ruimte te vullen */
+    text-align: center; /* Centreer de tekst binnen dit deel */
+}
+
+.footer-right p {
+    margin: 0; /* Verwijder de standaardmarges van de alinea's */
+    margin-left: 10px; /* Voeg wat ruimte toe tussen "Informatica" en het jaartal */
+}
+
