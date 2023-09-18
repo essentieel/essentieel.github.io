@@ -1,7 +1,7 @@
 body {
     background-color: #2e2e2e; /* Achtergrondkleur van de website */
     color: rgb(255, 255, 255); /* Tekstkleur */
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; /* Lettertype Arial */
     margin: 0;
 }
 
@@ -54,11 +54,13 @@ nav {
 /* Stijlen voor de voettekst */
 footer {
     background-color: #2e2e2e; /* Achtergrondkleur van de voettekst */
-    color: white; /* Tekstkleur van de voettekst */
-    display: flex; /* Maak een flex-container om de inhoud uit te lijnen */
-    justify-content: space-between; /* Verdeel de inhoud gelijkmatig over de ruimte */
-    align-items: center; /* Centreer de inhoud verticaal */
+    color: #ccc; /* Lichtgrijze tekstkleur van de voettekst */
+    text-align: center; /* Centreer de tekst binnen de voettekst */
+    font-style: italic; /* Zet de tekst in cursieve stijl */
     padding: 10px; /* Voeg ruimte toe rond de inhoud van de voettekst */
+    position: absolute; /* Plaats de voettekst onderaan de pagina */
+    bottom: 0; /* Plaats de voettekst aan de onderkant van de pagina */
+    width: 100%; /* Maak de voettekst de volle breedte van de pagina */
 }
 .footer-left,
 .footer-center,
@@ -80,4 +82,3 @@ footer {
     margin: 0; /* Verwijder de standaardmarges van de alinea's */
     margin-left: 10px; /* Voeg wat ruimte toe tussen "Informatica" en het jaartal */
 }
-
