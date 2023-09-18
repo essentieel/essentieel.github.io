@@ -55,30 +55,27 @@ nav {
 footer {
     background-color: #2e2e2e; /* Achtergrondkleur van de voettekst */
     color: #ccc; /* Lichtgrijze tekstkleur van de voettekst */
-    text-align: center; /* Centreer de tekst binnen de voettekst */
+    text-align: center; /* Centreer de tekst horizontaal binnen de voettekst */
     font-style: italic; /* Zet de tekst in cursieve stijl */
     padding: 10px; /* Voeg ruimte toe rond de inhoud van de voettekst */
-    position: absolute; /* Plaats de voettekst onderaan de pagina */
+    position: fixed; /* Plaats de voettekst onderaan de pagina en maak deze vast */
     bottom: 0; /* Plaats de voettekst aan de onderkant van de pagina */
     width: 100%; /* Maak de voettekst de volle breedte van de pagina */
 }
-.footer-left,
-.footer-center,
-.footer-right {
-    display: flex; /* Maak de inhoud flexibel voor uitlijning binnen elk deel */
+
+/* Stijlen voor de voetteksttekst links onderin */
+.footer-left {
+    float: left; /* Plaats de tekst links uitgelijnd */
+    margin-left: 10px; /* Voeg wat ruimte toe aan de linkerkant */
 }
 
-.footer-left p {
-    margin: 0; /* Verwijder de standaardmarges van de alinea's */
-    margin-right: 10px; /* Voeg wat ruimte toe tussen de naam en "Informatica" */
-}
-
+/* Stijlen voor de voetteksttekst in het midden onderin */
 .footer-center {
-    flex-grow: 1; /* Laat dit deel in het midden groeien om de ruimte te vullen */
-    text-align: center; /* Centreer de tekst binnen dit deel */
+    display: inline-block; /* Zorg ervoor dat het element inline is om horizontaal te centreren */
 }
 
-.footer-right p {
-    margin: 0; /* Verwijder de standaardmarges van de alinea's */
-    margin-left: 10px; /* Voeg wat ruimte toe tussen "Informatica" en het jaartal */
+/* Stijlen voor de voetteksttekst rechts onderin */
+.footer-right {
+    float: right; /* Plaats de tekst rechts uitgelijnd */
+    margin-right: 10px; /* Voeg wat ruimte toe aan de rechterkant */
 }
