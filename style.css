@@ -79,3 +79,14 @@ footer {
     float: right; /* Plaats de tekst rechts uitgelijnd */
     margin-right: 10px; /* Voeg wat ruimte toe aan de rechterkant */
 }
+
+/* Voeg deze CSS-stijlen toe om de afbeelding aan de zijkant van de tekst te plaatsen */
+.content-section {
+    display: flex;
+    align-items: center; /* Centreer de inhoud verticaal */
+}
+
+.content-image {
+    max-width: 50%; /* Pas de maximale breedte van de afbeelding aan */
+    margin-left: 20px; /* Voeg wat ruimte toe tussen de afbeelding en de tekst */
+}
