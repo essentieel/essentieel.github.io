@@ -46,53 +46,8 @@ nav {
     padding: 20px;
 }
 
-/* ... Andere stijlen ... */
-
-/* Stijlen voor de voettekst */
-footer {
-    background-color: #2e2e2e;
-    color: white;
-    display: flex;
-    flex-direction: column; /* Plaats de elementen verticaal */
-    align-items: center; /* Centreer de inhoud horizontaal */
-    padding: 10px;
-    border-top: 2px solid #5a5a5a; /* Voeg een bovenrand toe met dezelfde kleur als de menubalk */
-}
-
-.footer-top {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer-left,
-.footer-center,
-.footer-right {
-    display: flex;
-}
-
-.footer-left p {
-    margin: 0;
-    margin-right: 10px;
-}
-
-.footer-center i {
-    font-size: 24px;
-    color: #0073e6;
-}
-
-.footer-right p {
-    margin: 0;
-    margin-left: 10px;
-}
-
-.footer-right i {
-    font-size: 16px;
-    color: #5a5a5a; /* Kleur van het copyright-icoon (dezelfde kleur als de bovenrand) */
-}
-
 .menu ul li.selected a {
-    background-color: #777; /* Achtergrondkleur voor geselecteerd menu-item */
-    color: white; /* Tekstkleur voor geselecteerd menu-item */
+    background-color: #777; /* Grijze achtergrondkleur voor geselecteerde optie */
+    color: white; /* Tekstkleur voor geselecteerde optie */
 }
+
