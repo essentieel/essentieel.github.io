@@ -87,6 +87,6 @@ footer {
 }
 
 .content-image {
-    max-width: 50%; /* Pas de maximale breedte van de afbeelding aan */
+    max-width: 25%; /* Pas de maximale breedte van de afbeelding aan */
     margin-left: 20px; /* Voeg wat ruimte toe tussen de afbeelding en de tekst */
 }
