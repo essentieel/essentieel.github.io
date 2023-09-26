@@ -93,6 +93,7 @@ footer {
 
 .content-image {
     border-radius: 10px; /* Voeg afgeronde hoeken toe aan de afbeelding */
-    max-width: 100%; /* Zorg ervoor dat de afbeelding binnen zijn container blijft */
+    width: 300px; /* Pas de breedte van de afbeelding aan aan je voorkeur */
     height: auto; /* Behoud de aspectverhouding van de afbeelding */
 }
+
