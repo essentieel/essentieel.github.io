@@ -90,3 +90,9 @@ footer {
     max-width: 25%; /* Pas de maximale breedte van de afbeelding aan */
     margin-left: 20px; /* Voeg wat ruimte toe tussen de afbeelding en de tekst */
 }
+
+.content-image {
+    border-radius: 10px; /* Voeg afgeronde hoeken toe aan de afbeelding */
+    max-width: 100%; /* Zorg ervoor dat de afbeelding binnen zijn container blijft */
+    height: auto; /* Behoud de aspectverhouding van de afbeelding */
+}
