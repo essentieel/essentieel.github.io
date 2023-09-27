@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="search.js"></script>
+    <script src="search.js"></script> <!-- Voeg het pad naar je JavaScript-bestand toe -->
     <title>Welcome</title>
 </head>
 <body class="page-home">
@@ -22,6 +22,12 @@
     </nav>
     <div class="content">
         <h1>Welkom op mijn website!</h1>
+    
+        <!-- Voeg de zoekbalk hier in -->
+        <div class="search-container">
+            <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Zoeken...">
+            <ul id="searchResults"></ul>
+        </div>
     
         <div class="content-section">
             <div class="content-text">
@@ -90,3 +96,5 @@
         <div class="footer-center">Informatica</div>
         <div class="footer-right">Copyright 2023 ©</div>
     </footer>
+</body>
+</html>
