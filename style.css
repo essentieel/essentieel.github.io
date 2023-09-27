@@ -123,3 +123,33 @@ footer {
     overflow-y: auto;
     display: none;
 }
+
+/* CSS-stijl voor de zoekbalk */
+.search-container {
+    position: absolute;
+    top: 10px; /* Afstand vanaf de bovenkant van de pagina */
+    right: 10px; /* Afstand vanaf de rechterkant van de pagina */
+    z-index: 1; /* Zorg ervoor dat de zoekbalk boven andere inhoud wordt weergegeven */
+}
+
+/* Stijl voor de zoekbalk */
+.search-container {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Stijl voor het zoekicoon */
+.fas.fa-search {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #555; /* Kleur van het zoekicoon */
+}
+
+/* Stijl voor de zoekbalk input */
+#search-input {
+    padding-left: 30px; /* Ruimte laten voor het zoekicoon */
+    width: 200px; /* Breedte van de zoekbalk aanpassen aan jouw behoeften */
+}
