@@ -97,3 +97,29 @@ footer {
     height: auto; /* Behoud de aspectverhouding van de afbeelding */
 }
 
+/* Stijlen voor de zoekbalk */
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+#searchInput {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#searchResults {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    max-height: 200px;
+    overflow-y: auto;
+    display: none;
+}
