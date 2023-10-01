@@ -89,68 +89,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <style>
-        /* Voeg hier je aangepaste stijlen toe */
-        .content {
-            text-align: left; /* Tekst links uitlijnen */
-            margin-top: 20px; /* Bovenmarge toevoegen */
-            margin-left: 20px; /* Linkermarge toevoegen */
-        }
-
-        .video-container {
-            text-align: right; /* Video aan de rechterkant uitlijnen */
-            margin-top: 30px; /* Bovenmarge voor de video */
-        }
-
-        .video-text {
-            margin-bottom: 10px; /* Ondermarge voor de tekst */
-        }
-
-        .video-embed {
-            max-width: 100%; /* Maximale breedte van de video */
-            height: auto; /* Automatische hoogte aanpassing voor de beeldverhouding */
-        }
-    </style>
-
-</head>
-<body class="common-bg-color">
-    <div class="content">
-        <h1>Het Binair Stelsel</h1>
-
-        <h2>Wat is het Binair Stelsel?</h2>
-        <p>Het binair stelsel, ook wel bekend als het binaire stelsel, is een manier om getallen te schrijven met slechts twee cijfers: 0 en 1.</p>
-        <p>Computers begrijpen alleen deze twee cijfers. Het is alsof ze alleen aan- en uitknoppen hebben, en dat is alles wat ze weten!</p>
-
-        <h2>Hoe Werkt het Binair Stelsel?</h2>
-
-        <h3>Reeks van Schakelaars</h3>
-        <p>Denk aan het binair stelsel als een reeks van schakelaars. Als een schakelaar aan staat, is het cijfer 1. Als een schakelaar uit staat, is het cijfer 0.</p>
-
-        <h3>Getallen Maken</h3>
-        <p>Om getallen te maken, zet je deze schakelaars aan en uit. Bijvoorbeeld, "101" betekent dat de eerste schakelaar aan staat (1), de tweede uit staat (0) en de derde weer aan staat (1).</p>
-
-        <h3>Optellen</h3>
-        <p>In het binair stelsel werkt optellen een beetje anders, maar het komt neer op hetzelfde. Als je "10" en "11" optelt, krijg je "101".</p>
-        <p>Dit betekent dat 2 + 3 = 5.</p>
-
-        <h2>Waarom is het Belangrijk?</h2>
-
-        <h3>Computers Werken Zo</h3>
-        <p>Computers gebruiken het binair stelsel omdat ze elektronische schakelaars zijn. Het helpt hen informatie snel op te slaan en te verwerken.</p>
-
-        <h3>Alles in de Computer</h3>
-        <p>Alles wat je op een computer ziet, zoals tekst, afbeeldingen en video's, wordt uiteindelijk in het binair stelsel opgeslagen en verwerkt.</p>
-
-        <h3>Basis van Informatica</h3>
-        <p>Het begrijpen van het binair stelsel is essentieel in de wereld van informatica en helpt bij het bouwen en begrijpen van computers en software.</p>
-    </div>
-
-    <!-- Voeg de YouTube-video hieronder toe -->
-    <div class="video-container">
-        <iframe class="video-embed" src="https://www.youtube.com/embed/LpuPe81bc2w" frameborder="0" allowfullscreen></iframe>
-        <div class="video-text">
-            <p>Hier is een video voor extra uitleg om een beter beeld te krijgen van het binair stelsel:</p>
-        </div>
-    </div>
-</body>
-</html>
+    <header>
+        <P STYLE="font-size: 40px; font-family: Arial, sans-serif;"> Binair Stelsel</P>
+      </header>
+    <main>
+    
+      <section>
+       <h1>Binair Stelsel Uitleg</h1>
+        <p>Het binairstelsel is een wiskundig systeem dat wordt gebruikt in computers en digitale elektronica. In tegenstelling tot ons decimale stelsel, dat gebaseerd is op tien cijfers (0-9), is het binairstelsel gebaseerd op slechts twee cijfers: 0 en 1. Dit maakt het binairstelsel bijzonder geschikt voor het opslaan en verwerken van digitale informatie.</p>
+        <p>Bit: Bit is de kleinste eenheid van digitale informatie. Het kan slechts twee waarden aannemen:
+          0 of 1. Bit is de afkorting voor “binair cijfer”.</p>
+        <p>Byte: Een byte bestaat uit 8 bits. Het is een standaardeenheid voor het opslaan en verzenden van gegevens in veel digitale systemen, waaronder computers. Een byte kan 256 verschillende waarden (2^8) aannemen  van 0 tot 255. Bytes worden vaak gebruikt om de bestandsgrootte en  capaciteit van opslagapparaten, zoals harde schijven en USB-drives, te meten.</p>
+    
+        <h2>Voorbeelden van binaire getallen:</h2>
+        <ul>
+            <li>0 in binaire notatie is 0 in het decimale stelsel.</li>
+            <li>1 in binaire notatie is 1 in het decimale stelsel.</li>
+            <li>10 in binaire notatie is 2 in het decimale stelsel.</li>
+            <li>11 in binaire notatie is 3 in het decimale stelsel.</li>
+            <li>100 in binaire notatie is 4 in het decimale stelsel.</li>
+            <li>101 in binaire notatie is 5 in het decimale stelsel.</li>
+            <li>110 in binaire notatie is 6 in het decimale stelsel.</li>
+            <li>111 in binaire notatie is 7 in het decimale stelsel.</li>
+        </ul>
+    
+        <h2>Binair naar Decimaal Converter</h2>
+        <p>Voer een binair getal in en klik op "Converteren" om het naar decimaal om te zetten:</p>
+        <input type="text" id="binaryInput">
+        <button onclick="convertBinaryToDecimal()">Converteren</button>
+        <p>Decimale waarde: <span id="decimalOutput"></span></p>
+    
+        <script>
+            function convertBinaryToDecimal() {
+                const binaryInput = document.getElementById("binaryInput").value;
+                const decimalOutput = document.getElementById("decimalOutput");
+                
+                // Controleren of het ingevoerde waarde geldig is
+                if (/^[01]+$/.test(binaryInput)) {
+                    const decimalValue = parseInt(binaryInput, 2); // 2 geeft aan dat het een binaire representatie is
+                    decimalOutput.textContent = decimalValue;
+                } else {
+                    decimalOutput.textContent = "Ongeldige invoer";
+                }
+            }
+        </script>
+      </section>
+    
+      <section>
+        <h1> Een uitlegvideo over het Binairstelsel!!</h1>
+        <iframe width="716" height="403" src="https://www.youtube.com/embed/TeQH_Bei8iU" title="Binaire getallen omrekenen" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </section>
+    
+      <header>
+        <h1>ASCII-tabel</h1>
+    </header>
+    <main>
+        <table>
+            <tr>
+                <th>Decimaal</th>
+                <th>Octaal</th>
+                <th>Hexadecimaal</th>
+                <th>ASCII-teken</th>
+            </tr>
+            <tr>
+                <td>32</td>
+                <td>40</td>
+                <td>20</td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>48</td>
+                <td>60</td>
+                <td>30</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>65</td>
+                <td>101</td>
+                <td>41</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>97</td>
+                <td>141</td>
+                <td>61</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>126</td>
+                <td>176</td>
+                <td>7E</td>
+                <td>~</td>
+            </tr>
+        </table>
+    </main>
+    
+    <section>
+    <h1>Laten we nu testen of je het snapt</h1>
+      <iframe src="https://games.penjee.com/binary-bonanza/game.php" width="700" height="500" frameborder="no" scrolling="no" ></iframe>
+    </section>
