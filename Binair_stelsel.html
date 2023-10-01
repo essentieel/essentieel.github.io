@@ -82,10 +82,38 @@
         }
     </style>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        /* Voeg hier je aangepaste stijlen toe */
+        .content {
+            text-align: left; /* Tekst links uitlijnen */
+            margin-top: 20px; /* Bovenmarge toevoegen */
+            margin-left: 20px; /* Linkermarge toevoegen */
+        }
+
+        .video-container {
+            text-align: right; /* Video aan de rechterkant uitlijnen */
+            margin-top: 30px; /* Bovenmarge voor de video */
+        }
+
+        .video-text {
+            margin-bottom: 10px; /* Ondermarge voor de tekst */
+        }
+
+        .video-embed {
+            max-width: 100%; /* Maximale breedte van de video */
+            height: auto; /* Automatische hoogte aanpassing voor de beeldverhouding */
+        }
+    </style>
+
 </head>
 <body class="common-bg-color">
-    <!-- Voeg de menubalk in vanuit het "menu.html" bestand -->
-    <include src="menu.html"></include>  
     <div class="content">
         <h1>Het Binair Stelsel</h1>
 
@@ -119,8 +147,10 @@
 
     <!-- Voeg de YouTube-video hieronder toe -->
     <div class="video-container">
+        <iframe class="video-embed" src="https://www.youtube.com/embed/LpuPe81bc2w" frameborder="0" allowfullscreen></iframe>
         <div class="video-text">
             <p>Hier is een video voor extra uitleg om een beter beeld te krijgen van het binair stelsel:</p>
         </div>
-        <iframe class="video-embed" src="https://www.youtube.com/embed/LpuPe81bc2w" frameborder="0" allowfullscreen></iframe>
     </div>
+</body>
+</html>
