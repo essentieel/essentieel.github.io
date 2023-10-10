@@ -124,3 +124,17 @@ footer {
     display: none;
 }
 
+/* Stijl voor afbeeldingen en tekstcontainers */
+div.figure {
+    float: right;
+    width: 30%;
+    border: thin rgb(86, 193, 217) solid;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+  div.figure p {
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+  }
