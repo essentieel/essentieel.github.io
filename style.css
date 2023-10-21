@@ -272,3 +272,34 @@ div.figure p {
     font-size: smaller;
     text-indent: 0;
 }
+
+/* Stijl voor het centreren van de container in het venster */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+/* Stijl voor de container met grid-indeling */
+{
+    display: grid;
+    grid-template-rows: 1fr auto;
+    min-height: 100vh;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #a89ede;
+  }
+  
