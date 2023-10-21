@@ -138,3 +138,137 @@ div.figure {
     font-size: smaller;
     text-indent: 0;
   }
+
+  body {
+    background-color: #2e2e2e;
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+nav {
+    background-color: #2e2e2e;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-bottom: 2px solid #5a5a5a;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu ul li {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.menu ul li:last-child {
+    margin-right: 0;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: inherit; /* Erft de tekstkleur van het bovenliggende element (body) */
+    padding: 10px;
+    transition: background-color 0.2s;
+}
+
+.menu ul li a:hover {
+    background-color: #777;
+}
+
+.content {
+    padding: 20px;
+}
+
+.menu ul li.selected a {
+    background-color: #777;
+    color: white;
+}
+
+footer {
+    background-color: #2e2e2e;
+    color: #ccc;
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-left {
+    float: left;
+    margin-left: 10px;
+}
+
+.footer-center {
+    display: inline-block;
+}
+
+.footer-right {
+    float: right;
+    margin-right: 10px;
+}
+
+.content-section {
+    display: flex;
+    align-items: center;
+}
+
+.content-image {
+    max-width: 25%;
+    margin-left: 10px;
+}
+
+.content-image {
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+#searchInput {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#searchResults {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    background-color: #3f3e3e;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    max-height: 200px;
+    overflow-y: auto;
+    display: none;
+}
+
+div.figure {
+    float: right;
+    width: 30%;
+    border: thin rgb(86, 193, 217) solid;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+div.figure p {
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+}
