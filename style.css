@@ -1,0 +1,167 @@
+/* Algemene stijlen */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Witte achtergrond */
+    color: #000000; /* Zwarte tekst */
+}
+
+/* Menu-container en menu stijlen */
+.menu-container {
+    background-color: #4c00ff; /* Donkerblauw */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 10px 0;
+    text-align: center;
+}
+
+ul.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul.menu > li {
+    position: relative;
+    margin: 0 15px;
+}
+
+ul.menu > li > a {
+    color: #ffffff; /* Witte tekst */
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+ul.menu > li > a:hover {
+    background-color: #159fc2; /* Lichterblauw bij hover */
+}
+
+/* Dropdown menu */
+.dropdown .submenu {
+    display: none;
+}
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+.submenu {
+    position: absolute;
+    top: 100%; /* Plaats submenu onder de hoofdlink */
+    background-color: #4c00ff; /* Donkerblauw */
+    padding: 10px;
+    border-radius: 5px;
+    min-width: 150px;
+    z-index: 1;
+    text-align: left;
+}
+
+.submenu li {
+    list-style: none;
+}
+
+.submenu a {
+    color: #ffffff; /* Witte tekst */
+    text-decoration: none;
+    padding: 8px 12px;
+    display: block;
+    font-size: 14px;
+}
+
+.submenu a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Transparant wit bij hover */
+}
+
+/* Submenu binnen de submenu */
+.submenu-right {
+    display: none;
+    position: absolute;
+    left: 150px; /* Plaats submenu rechts van het hoofdsubmenu */
+    top: 0;
+    background-color: #4c00ff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.dropdown:hover .submenu li:hover .submenu-right {
+    display: block;
+}
+
+/* Inhoud stijlen */
+.content {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #000000; /* Zwarte tekstkleur */
+    text-align: left;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column; /* Gebruik kolomrichting voor de inhoud */
+    gap: 20px;
+    opacity: 0;
+    animation: fadeIn 1s forwards; /* Animatie voor fade-in effect */
+}
+
+.content h1, .content h2, .content h3 {
+    color: #3c2a91; /* Midnight Purple voor kopjes */
+    margin-top: 0;  /* Geen marge aan de bovenkant van de kopjes */
+    margin-bottom: 3px; /* Zeer kleine marge aan de onderkant van de kopjes */
+    padding: 0; /* Verwijder eventuele padding van kopjes */
+}
+
+.content p {
+    margin-top: 0; /* Geen ruimte boven alinea's */
+    margin-bottom: 10px; /* Kleinere ruimte onder de alinea */
+    font-size: 16px; /* Aangepaste lettergrootte voor alinea's */
+    padding: 0; /* Verwijder padding van alinea's */
+}
+
+.content .media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content img, .content video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centraal uitlijnen van afbeeldingen */
+}
+
+/* Footer stijlen */
+.footer {
+    background-color: #4c00ff; /* Donkerblauw */
+    color: #ffffff; /* Witte tekst */
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.footer img {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+/* Animatie voor fade-in effect bij de inhoud */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
