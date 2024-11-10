@@ -158,10 +158,3 @@ ul.menu > li > a:hover {
     height: 25px;
     margin-left: 10px;
 }
-
-/* Animatie voor fade-in effect bij de inhoud */
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-    }
-}
