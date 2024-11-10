@@ -53,7 +53,7 @@ ul.menu > li > a:hover {
 
 .submenu {
     position: absolute;
-    top: 100%; /* Plaats submenu onder de hoofdlink */
+    top: 100%;
     background-color: #4c00ff; /* Donkerblauw */
     padding: 10px;
     border-radius: 5px;
@@ -111,7 +111,7 @@ ul.menu > li > a:hover {
 }
 
 .content h1, .content h2, .content h3 {
-    color: #3c2a91; /* Midnight Purple voor kopjes */
+    color: #4c00ff; 
     margin-top: 0;  /* Geen marge aan de bovenkant van de kopjes */
     margin-bottom: 3px; /* Zeer kleine marge aan de onderkant van de kopjes */
     padding: 0; /* Verwijder eventuele padding van kopjes */
