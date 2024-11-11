@@ -106,7 +106,7 @@ ul.menu > li > a:hover {
     display: flex;
     flex-direction: column; /* Gebruik kolomrichting voor de inhoud */
     gap: 20px;
-    opacity: 0;
+    opacity: 1;
 }
 
 .content h1, .content h2, .content h3 {
