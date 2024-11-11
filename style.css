@@ -98,7 +98,7 @@ ul.menu > li > a:hover {
     max-width: 900px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #ffffff; /* Witte achtergrond */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: #000000; /* Zwarte tekstkleur */
     text-align: left;
@@ -106,7 +106,7 @@ ul.menu > li > a:hover {
     display: flex;
     flex-direction: column; /* Gebruik kolomrichting voor de inhoud */
     gap: 20px;
-    opacity: 1;
+    opacity: 1; /* Zorgt ervoor dat de inhoud volledig zichtbaar is */
 }
 
 .content h1, .content h2, .content h3 {
