@@ -9,7 +9,7 @@ body {
 
 /* Menu-container en menu stijlen */
 .menu-container {
-    background-color: #4c00ff; /* Donkerblauw */
+    background-color: #ca266b; /* Roze */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     padding: 10px 0;
     text-align: center;
@@ -39,7 +39,7 @@ ul.menu > li > a {
 }
 
 ul.menu > li > a:hover {
-    background-color: #00f53d; /* Lichterblauw bij hover */
+    background-color: #ca266b; /* Kleur bij hover */
 }
 
 /* Dropdown menu */
@@ -53,8 +53,8 @@ ul.menu > li > a:hover {
 
 .submenu {
     position: absolute;
-    top: 100%;
-    background-color: #4c00ff; /* Donkerblauw */
+    top: 100%; /* Plaats submenu onder de hoofdlink */
+    background-color: #ca266b; /* Roze */
     padding: 10px;
     border-radius: 5px;
     min-width: 150px;
@@ -84,7 +84,7 @@ ul.menu > li > a:hover {
     position: absolute;
     left: 150px; /* Plaats submenu rechts van het hoofdsubmenu */
     top: 0;
-    background-color: #4c00ff;
+    background-color: #ca266b;
     padding: 10px;
     border-radius: 5px;
 }
@@ -107,11 +107,10 @@ ul.menu > li > a:hover {
     flex-direction: column; /* Gebruik kolomrichting voor de inhoud */
     gap: 20px;
     opacity: 0;
-    animation: fadeIn 1s forwards; /* Animatie voor fade-in effect */
 }
 
 .content h1, .content h2, .content h3 {
-    color: #4c00ff; 
+    color: #ca266b; /* Roze voor bij de kopjes */
     margin-top: 0;  /* Geen marge aan de bovenkant van de kopjes */
     margin-bottom: 3px; /* Zeer kleine marge aan de onderkant van de kopjes */
     padding: 0; /* Verwijder eventuele padding van kopjes */
@@ -138,7 +137,7 @@ ul.menu > li > a:hover {
 
 /* Footer stijlen */
 .footer {
-    background-color: #4c00ff; /* Donkerblauw */
+    background-color: #ca266b; /* Roze */
     color: #ffffff; /* Witte tekst */
     padding: 15px;
     display: flex;
